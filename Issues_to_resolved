@@ -1,0 +1,20 @@
+pt1:some issue in model building. classification model built using
+random forest in Algerian_Forest_Fire_EDA.ipynb file
+pt2:Have to discuss feature engineering
+pt3: in log file run.log line 32 of app.py is not getting displayed
+pt4: data entered by me via postman {
+	data: {
+		'day': "03",
+		'month': "06",
+		'year': 2012,
+		'Temperature': 26,
+		' RH': 82.0,
+		' Ws': 22.0,
+		'Rain ': 13.1,
+		'FFMC': 47.1,
+		'DMC': 2.5,
+		'DC': 7.1,
+		'ISI': 0.3,
+		'FWI': 0.1
+	}
+}
