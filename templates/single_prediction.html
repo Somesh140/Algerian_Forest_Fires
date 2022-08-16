@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+{% block content %}
+<hr>
+<div align="center">
+    <h4><b>Single Prediction</b></h4>
+    <div class="login">
+        <hr>
+        <br>
+        <!-- Main Input our ML -->
+        <form action="/single_prediction" method="POST">
+            <input type="text" name="day" placeholder="Day(1-31)" required="required" /><br>
+            <label for = "Month" placeholder="Select a month"></label>
+            <select id="Month" name="month" >
+                <option value="06">June</option>
+                <option value="07">July</option>
+                <option value="08">August</option>
+                <option value="09">September</option>
+              </select><br>
+            <input type="text" name="year" placeholder="Year" required="required" /><br>
+            <input type="text" name="RH" placeholder="RH" required="required" /><br>
+            <input type="text" name="Ws" placeholder="Ws" required="required" /><br>
+            <input type="text" name="Temp" placeholder="Temperature" required="required" /><br>
+            <input type="text" name="Rain" placeholder="Rain" required="required" /><br>
+            <input type="text" name="FFMC" placeholder="FFMC" required="required" /><br>
+            <input type="text" name="DMC" placeholder="DMC" required="required" /><br>
+            <input type="text" name="DC" placeholder="DC" required="required" /><br>
+            <input type="text" name="ISI" placeholder="IS" required="required" /><br>
+            <input type="text" name="BUI" placeholder="BUI" required="required" /><br>
+            <input type="text" name="FWI" placeholder="FWI" required="required" /><br>
+            <input type="submit" value="Proceed">
+            
+        </form>
+    </div>
+    </form>
+</div>
+{% endblock content %}
